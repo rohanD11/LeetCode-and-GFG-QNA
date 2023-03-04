@@ -123,6 +123,7 @@ void solve(Node *root,int k,vector<int>&v){
     }
     if(k==0){
         v.push_back(root->data);
+        return ;
     }
     solve(root->left,k-1,v);
     solve(root->right,k-1,v);
