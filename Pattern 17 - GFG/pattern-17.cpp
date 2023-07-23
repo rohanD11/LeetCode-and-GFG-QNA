@@ -14,10 +14,10 @@ class Solution {
                 cout<<" ";
             }
             
-            for(int j=0;j<(2*i+1)/2;j++){
+            for(int j=0;j<=(2*i+1)/2;j++){
                 cout<<char(c+j);
             }
-            for(int j=(2*i+1)/2;j>=0;j--){
+            for(int j=(2*i+1)/2-1;j>=0;j--){
                 cout<<char(c+j);
             }
             
